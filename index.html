@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <script src="./index.js"></script>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <h1 id="next">Welcome to Tic Tac Toe you fool! X is first. Do your best!</h1>
+        <div id="board">
+        <button class="grid-button" id="position0" onclick="isNext(this.id)"></button>
+        <button class="grid-button" id="position1" onclick="isNext(this.id)"></button>
+        <button class="grid-button" id="position2" onclick="isNext(this.id)"></button>
+        <button class="grid-button" id="position3" onclick="isNext(this.id)"></button>
+        <button class="grid-button" id="position4" onclick="isNext(this.id)"></button>
+        <button class="grid-button" id="position5" onclick="isNext(this.id)"></button>
+        <button class="grid-button" id="position6" onclick="isNext(this.id)"></button>
+        <button class="grid-button" id="position7" onclick="isNext(this.id)"></button>
+        <button class="grid-button" id="position8" onclick="isNext(this.id)"></button>
+        </div>
+        <div class="options">
+            <button  id="reset-button" onclick="reset()">Reset</button>
+        </div>
+        <p>Play against someone else or play against the computer.</p>
+        <form class="options">
+            <div id="radio">
+                    <input id="single" type="radio" value="single" name="play-type"> 
+                    <label>1 player</label>
+                    <input id="double" type="radio" value= "double" name="play-type" checked="checked"> 
+                    <label>2 player</label> 
+            </div>
+           
+        </form>
+        
+    </body>
+</html>

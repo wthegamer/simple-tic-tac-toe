@@ -1,0 +1,43 @@
+
+.grid-button {
+    height: 34px;
+    width: 34px;
+    border-style: groove;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 102px;
+    margin: 25px auto auto auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center; 
+}
+
+#reset-button {
+    margin: auto;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin: 25px auto auto auto;
+}
+#radio {
+    text-align: center;
+    margin: auto;
+}
+
+label {
+    margin-right: 5px;
+}
+
+button:disabled {
+    color: #000;
+}
